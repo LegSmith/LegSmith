@@ -64,9 +64,6 @@
 
 ---
 
-[![hits](https://myhits.vercel.app/api/hit/https%3A%2F%2Fgithupb.com%2FLegChain?color=blue&label=hits&size=small)](https://myhits.vercel.app)
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=chlwodud0327)](https://solved.ac/chlwodud0327/)
-
 ![snake gif](https://github.com/LegChain/LegChain/blob/output/github-contribution-grid-snake.svg)
 
 <h1 align="left">💻GitHub Analytics</h1>
