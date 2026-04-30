@@ -1,4 +1,4 @@
-# 👋 Hi, I'm 최재영 (Choi Jaeyoung)
+# 🎙️ Speech AI Research Engineer
 
 ### 🎙️ Speech AI Research Engineer
 
