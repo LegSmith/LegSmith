@@ -1,7 +1,5 @@
 # 🎙️ Speech AI Research Engineer
 
-### 🎙️ Speech AI Research Engineer
-
 **실시간 다국어 음성 처리 · 다국어 언어감지(LID) · 생성형 AI**
 
 연구소 선임연구원 | Senior Research Engineer
