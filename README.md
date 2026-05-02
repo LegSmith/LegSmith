@@ -102,10 +102,10 @@
 
 ---
 
-![snake gif](https://github.com/LegChain/LegChain/blob/output/github-contribution-grid-snake.svg)
+![snake gif](https://github.com/LegSmith/LegSmith/blob/output/github-contribution-grid-snake.svg)
 
 <h1 align="left">💻GitHub Analytics</h1>
 <p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=LegChain&show_icons=true&locale=en&theme=tokyonight" alt="LegChain" />&nbsp;
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=LegChain&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="LegChain" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=LegSmith&show_icons=true&locale=en&theme=tokyonight" alt="LegChain" />&nbsp;
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=LegSmith&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="LegChain" />
 </p>
