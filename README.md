@@ -12,7 +12,7 @@
 기업부설연구소에서 **음성인식(STT)** 분야의 연구개발을 담당하고 있으며, **실시간 다국어 STT**와 **다국어 언어감지(LID)** 를 메인으로 연구하고 있습니다.
 부가적으로 **생성형 AI 챗봇 / RAG 시스템**의 설계와 구축, 운영까지 경험했습니다.
 
-- 🎙️ **Speech** — Faster Whisper(CTranslate2 변환 실시간 모델) · Cloud STT(ElevenLabs, Google STT) 기반 실시간 다국어 STT 시스템 구축·운영
+- 🎙️ **Speech** — Selvy STT(상용) · Faster Whisper(CTranslate2 변환 실시간 모델) · Cloud STT(ElevenLabs, Google STT) 기반 실시간 다국어 STT 시스템 구축·운영
 - 🌐 **LID** — ECAPA-TDNN 기반 7개 언어 감지 모듈 개발 (영어 / 일본어 / 중국어 / 러시아어 / 태국어 / 인도네시아어 / 베트남어) 및 LID 모델 자체 파인튜닝 경험
 - 🤖 **Generative AI** — 사용자 질문 의도 분류 → RAG 답변 / sLLM(Gemma3:12b, Ollama) 분기 로직 기반 QnA 챗봇 설계·구축
 
@@ -30,12 +30,13 @@
 
 실제 콜센터 현장에 다국어 실시간 STT 시스템을 도입하여 **구축 → 운영 → 고도화**까지 전 과정을 담당했습니다.
 
-- 🇰🇷 **외교부 영사콜센터** — 다국어 실시간 STT 시스템 도입 및 구축, 운영
-  - Faster Whisper(Self-hosted) + Cloud STT(ElevenLabs / Google STT) 하이브리드 파이프라인
+- 🇰🇷 **외교부 영사콜센터** — 한국어 / 영어 실시간 STT 시스템 도입 및 구축, 운영
+  - Selvy STT(상용 S/W) + Faster Whisper(Self-hosted) 하이브리드 파이프라인
   - VAD → STT → LID → 코드스위칭 화면 출력까지 end-to-end 운영
-- 🧭 **한국관광공사 1330 관광안내콜센터** — 다국어 실시간 STT 시스템 도입 및 구축, 운영
+- 🧭 **한국관광공사 1330 관광안내콜센터** — 8개 언어(한국어 / 영어 / 일본어 / 중국어 / 러시아어 / 태국어 / 인도네시아어 / 베트남어) 실시간 STT 시스템 도입 및 구축, 운영
+  - Selvy STT(상용 S/W) or Faster Whisper(Self-hosted) + Cloud STT(ElevenLabs / Google STT) 하이브리드 파이프라인
   - 통역사 중계 통화(상담원 / 통역사 / 외국인 화자 동시 처리) 환경 대응
-  - 실시간 화자/언어 분리 + 누적 LID 기반 안정적 자막 송출
+  - 실시간 화자/언어 감지 + 누적 LID 기반 안정적 다국어 STT 전사
 - 🤗 **Hugging Face 모델 파인튜닝 및 운영 적용**
   - 콜센터 도메인 음성 데이터를 활용해 **Whisper / WavLM / ECAPA-TDNN** 등 사전학습 모델을 파인튜닝
   - 학습 → 평가(EER 등) → 변환(CTranslate2) → 실시간 추론 서버 배포까지 일괄 진행
@@ -60,6 +61,7 @@
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Selvy STT](https://img.shields.io/badge/Selvy_STT_(상용)-1A73E8?style=for-the-badge&logoColor=white)
 ![Faster Whisper](https://img.shields.io/badge/Faster_Whisper-412991?style=for-the-badge&logoColor=white)
 ![CTranslate2](https://img.shields.io/badge/CTranslate2-1F6FEB?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![SpeechBrain](https://img.shields.io/badge/SpeechBrain_(ECAPA--TDNN)-FF6F00?style=for-the-badge&logoColor=white)
@@ -91,6 +93,8 @@
 `Build / Ops`
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Rocky Linux](https://img.shields.io/badge/Rocky_Linux-10B981?style=for-the-badge&logo=rockylinux&logoColor=white)
 ![Gitea](https://img.shields.io/badge/Gitea-609926?style=for-the-badge&logo=gitea&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
