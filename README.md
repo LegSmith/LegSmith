@@ -106,6 +106,6 @@
 
 <h1 align="left">💻GitHub Analytics</h1>
 <p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=LegSmith&show_icons=true&locale=en&theme=tokyonight" alt="LegChain" />&nbsp;
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=LegSmith&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="LegChain" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=LegSmith&show_icons=true&locale=en&theme=tokyonight" alt="LegSmith" />&nbsp;
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=LegSmith&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="LegSmith" />
 </p>
