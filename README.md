@@ -2,16 +2,14 @@
 
 **실시간 다국어 음성 처리 · 다국어 언어감지(LID) · 생성형 AI**
 
+<a href="https://dev-tier.vercel.app/LegSmith">
+  <img src="./assets/devtier.png" width="480" alt="DevTier Card" />
+</a>
+
 [![Email](https://img.shields.io/badge/Email-choi.debugs.y@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:choi.debugs.y@gmail.com)
 [![Notion](https://img.shields.io/badge/Notion-Coming_Soon-000000?style=flat-square&logo=notion&logoColor=white)]()
 
 
-<h2 align="left">🃏 DevTier Card</h2>
-<p>
-  <a href="https://dev-tier.vercel.app/LegSmith">
-    <img src="./assets/devtier.png" width="600" alt="DevTier Card" />
-  </a>
-</p>
 
 
 ## 🧑‍💻 About Me
