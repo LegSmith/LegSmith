@@ -1,0 +1,30 @@
+name: Update DevTier Card
+
+on:
+  schedule:
+    - cron: "17 18 * * *"   # 매일 03:17 KST (정시는 러너 혼잡해서 피함)
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch DevTier card
+        run: |
+          mkdir -p assets
+          curl -fsSL --retry 3 --retry-delay 5 \
+            -o assets/devtier.png \
+            "https://dev-tier.vercel.app/LegSmith/opengraph-image"
+          file assets/devtier.png | grep -q PNG   # PNG 아니면 실패 처리
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/devtier.png
+          git diff --staged --quiet || git commit -m "chore: update DevTier card"
+          git push
