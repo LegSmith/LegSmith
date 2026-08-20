@@ -5,7 +5,14 @@
 [![Email](https://img.shields.io/badge/Email-choi.debugs.y@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:choi.debugs.y@gmail.com)
 [![Notion](https://img.shields.io/badge/Notion-Coming_Soon-000000?style=flat-square&logo=notion&logoColor=white)]()
 
----
+
+<h1 align="left">🃏 DevTier Card</h1>
+<p>
+  <a href="https://dev-tier.vercel.app/LegSmith">
+    <img src="./assets/devtier.png" width="600" alt="DevTier Card" />
+  </a>
+</p>
+
 
 ## 🧑‍💻 About Me
 
